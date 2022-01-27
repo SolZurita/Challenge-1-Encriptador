@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;    
+}
+
+
+.tarjeta{
+  width: 500px;
+  height: 200px;
+  margin: 10px;
+  background-color: rgb(216, 210, 210);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error {
+  color: rgb(211, 3, 3);
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0 0.3rem;
+}
+
+button {
+  all: initial;
+  font: inherit;
+  cursor: pointer;
+  user-select: none;
+
+  color: #FFF;
+  background:   #0485c0;
+  text-align: center;
+  margin: 10px 5px;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contenedor-botones{
+  display: flex;
+}
+
+.mensaje-contenedor {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  all: initial;
+  font: inherit;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  padding: 1em 0.5em;
+}
+
+
+body{
+  background-image: url('https://cursosformacion.online/wp-content/uploads/2022/01/Comandos-de-Linux-main.jpg');
+  background-position: center;
+  background-size: 105%;
+  }
+
+.title{
+    
+    width:100%;
+    color: rgb(220, 226, 228);
+    Text-align:center;
+    margin-top:190px;
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px
+}
